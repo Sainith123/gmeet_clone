@@ -13,16 +13,18 @@ Node.js Version >= 18.0.0
 ```
 git clone https://github.com/Sainith123/gmeet_clone.git
 ```
-### Installation
+### Installation & running locally
 
 ```sh
 cd server
 $ npm install
+node index.js
 ```
 
 ```sh
 cd client
 $ npm install
+npm run dev
 ```
 
 
