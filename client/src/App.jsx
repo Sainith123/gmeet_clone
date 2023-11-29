@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import React from 'react'
+//  import React from 'react'
 import { LandingPage } from "./components/LandingPage";
 import { MeetingPage } from "./components/MeetingPage";
 

@@ -24,7 +24,7 @@ export function MeetingPage() {
     const roomId = params.roomId;
 
     useEffect(() => {
-      const s = socketIO.connect("http://localhost:3001");
+      const s = socketIO.connect("http://localhost:3000");
       s.on("connect", () => {
         setSocket(s);
         s.emit("join", {
